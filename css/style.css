@@ -1,0 +1,39 @@
+html, body{
+	background-color: rgb(231, 223, 223);
+	padding: 0% 10%;
+}
+
+
+ nav li{
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20%;
+	background-color: bisque;
+}
+
+nav li:hover{
+	background-color: brown;
+	font: 2em sans-serif;
+	font-size: larger;
+
+}
+
+nav a{
+	text-decoration: none;
+	font: 1em sans-serif;
+}
+
+  .hob{
+    display: inline-block;
+    border: 5px solid rgb(221, 221, 221);
+    border-radius: 15%;
+    padding: 20px;
+    width: 500px;
+}
+
+figcaption{
+	font-size: 2em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
