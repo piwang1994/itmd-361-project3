@@ -31,6 +31,24 @@ nav a{
     width: 500px;
 }
 
+.wel li{
+	list-style-type: none;
+	/* display: inline-block; */
+	width: 10em;
+	height: 10em;
+	background-color: aquamarine;
+	border-radius: 100%;
+
+}
+.wel li>a{
+	display: block;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+	height: 100%;
+	font-size: 3em;
+	align-content: center;
+}
 figcaption{
 	font-size: 2em;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
