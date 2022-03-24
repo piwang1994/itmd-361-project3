@@ -76,12 +76,19 @@ h3 {
 
 #intro,
 #zen {
-    width: 49%;
-    float: left;
+    width: 40%;
     background-color: bisque;
-    padding: auto;
+    padding: 3%;
     border: 1px solid goldenrod;
     height: 20em;
+}
+
+#intro {
+    float: left;
+}
+
+#intro {
+    float: right;
 }
 
 #hobox ul {
