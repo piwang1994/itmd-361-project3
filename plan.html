@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
     <title>my study plan</title>
 </head>
 <!-- <body background="images/iit-stuart-image.jpg"> -->
@@ -14,23 +15,31 @@
     <header>
         <nav id="main-navbar">
             <div id="navbar-container">
-                <ul>
+                <ul class="topnav">
+                    <li><a href="index.html">index</a></li>
                     <li><a href="resume.html">resume</a></li>
                     <li><a href="hobby.html">hobby</a></li>
-                    <li><a href="plan.html">plan</a></li>
-                    <li><a href="map.html">plan</a></li>
+                    <li><a href="plan.html"  class="activate">plan</a></li>
+                    <li><a href="map.html">map</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+                      </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <h2>to do lists</h2>
-    <ul>
-        <li>itmd-361</li>
-        <li>itmd-321</li>
-        <li>spring-boot</li>
-        <li>spring-boot</li>
-        <li>Kubernetes</li>
-    </ul>
+    <main>
+        <h2>to do lists</h2>
+        <div id="todo">
+            <ul>
+                <li>itmd-361</li>
+                <li>itmd-321</li>
+                <li>spring-framework</li>
+                <li>spring-boot</li>
+                <li>Kubernetes</li>
+            </ul>
+        </div>
+    </main>
 </body>
 
 </html>
