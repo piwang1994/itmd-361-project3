@@ -2,44 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
-    <title>the google map</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <title>the google map</title>
 </head>
 
 <body>
-    <header>
-        <nav id="main-navbar">
-            <div id="navbar-container">
-                <ul class="topnav">
-                    <li><a href="index.html">index</a></li>
-                    <li><a href="resume.html">resume</a></li>
-                    <li><a href="hobby.html">hobby</a></li>
-                    <li><a href="plan.html">plan</a></li>
-                    <li><a href="map.html" class="activate">map</a></li>
-                    <li class="icon">
-                        <a href="javascript:void(0);" onclick="myFunction()">☰</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="box">
-            <div class="swiper">
-                <div class="swiper-item"><img src="media/800_1.jpg" alt="guangzhou1"></div>
-                <div class="swiper-item"><img src="media/800_2.jpg" alt="guangzhou2"></div>
-                <div class="swiper-item"><img src="media/800_3.jpg" alt="guangzhou3"></div>
-                <div class="swiper-item"><img src="media/800_4.jpg" alt="guangzhou4"></div>
-            </div>
-        </div>
-        <h2>You can see my position in the map</h2>
-        <div id="map"></div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDhG7BY-8lFmkHwGViU3f4VDj3dvi957s&callback=initMap&v=weekly" defer></script>
-    </main>
+  <header>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul class="topnav">
+          <li><a href="index.html">index</a></li>
+          <li><a href="resume.html">resume</a></li>
+          <li><a href="hobby.html">hobby</a></li>
+          <li><a href="plan.html">plan</a></li>
+          <li><a href="map.html" class="activate">map</a></li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="box">
+      <div class="swiper">
+        <div class="swiper-item"><img src="media/800_1.jpg" alt="guangzhou1"></div>
+        <div class="swiper-item"><img src="media/800_2.jpg" alt="guangzhou2"></div>
+        <div class="swiper-item"><img src="media/800_3.jpg" alt="guangzhou3"></div>
+        <div class="swiper-item"><img src="media/800_4.jpg" alt="guangzhou4"></div>
+      </div>
+    </div>
+    <h2>You can see my position in the map</h2>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDhG7BY-8lFmkHwGViU3f4VDj3dvi957s&callback=initMap&v=weekly" defer></script>
+  </main>
 </body>
 
 </html>
